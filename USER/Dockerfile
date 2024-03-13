@@ -1,4 +1,4 @@
 FROM almalinux:8
 RUN adduser arun
 USER arun
-CMD [ "sleep", "100" ]
+CMD ["nginx", "-g", "daemon off;"]
